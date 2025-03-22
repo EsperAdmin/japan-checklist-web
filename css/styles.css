@@ -2,8 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #0D004F;
 }
 
 h1, p {
     text-align: center;
+}
+
+.hero {
+    background-color: #0D004F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 28%;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+}
+
+.signupin-buttons {
+    margin: 0px 10px;
+    color: #F7DAE6;
+    border-radius: 15px;
+    border: solid;
+    
 }
